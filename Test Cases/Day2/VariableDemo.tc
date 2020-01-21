@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VariableDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7b5635a5-21fa-43ac-8006-9d2bb9e10871</testCaseGuid>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>6c6c1fb6-2b24-4e15-bd2c-9078070a398d</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+</TestCaseEntity>

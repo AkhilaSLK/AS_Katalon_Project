@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Target_CP</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/Target</source-url>
+   </source-info>
+   <taken-date>2020-01-21T16:13:23.908</taken-date>
+   <column-names>
+      <column-name>customername</column-name>
+      <column-name>product</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Sowmya",
+      "checked": false
+    },
+    {
+      "value": "checking",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "sanjay",
+      "checked": false
+    },
+    {
+      "value": "savings",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
