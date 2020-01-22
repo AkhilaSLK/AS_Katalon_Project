@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/frames/Page_Overview/frame_html1frameset1frame1_classFrame</value>
+      <value>Object Repository/Web/frames/Page_Overview/frame_html1frameset1frame1_classFrame</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

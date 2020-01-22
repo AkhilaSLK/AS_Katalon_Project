@@ -19,4 +19,9 @@
       <initValue>'/5S6MFFLcE4mlsixtc6/Tg=='</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'6'</initValue>
+      <name>Num1</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

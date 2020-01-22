@@ -13,15 +13,4 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.setText(findTestObject('Web/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), GlobalVariable.UserName)
-
-WebUI.setEncryptedText(findTestObject('Web/Page_OrangeHRM/input_Username_txtPassword'), GlobalVariable.Password)
-
-WebUI.click(findTestObject('Web/Page_OrangeHRM/input_Password_Submit'))
-
-WebUI.closeBrowser()
-
+println 'i am inside test case'

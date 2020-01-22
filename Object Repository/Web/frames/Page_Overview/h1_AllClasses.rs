@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Skip navigation linksOverviewPackageClassTreeDeprecatedIndexHelp</name>
+   <name>h1_AllClasses</name>
    <tag></tag>
-   <elementGuidId>42f71ea9-8557-462c-842c-e5a76b092ef9</elementGuidId>
+   <elementGuidId>df9bcd8d-3f7f-465f-a116-4ef3f981de75</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='AbstractAnnotations'])[1]/preceding::h1[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,57 +17,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>h1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>topNav</value>
+      <value>bar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-
-
-Skip navigation links
-
-
-
-
-Overview
-Package
-Class
-Tree
-Deprecated
-Index
-Help
-
-</value>
+      <value>All Classes</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;topNav&quot;]</value>
+      <value>/html[1]/body[1]/h1[@class=&quot;bar&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/frames/Page_Overview/frame_html1frameset1frame1_classFrame</value>
+      <value>Object Repository/Web/frames/Page_Overview/frame_html1frameset1frameset1frame2_packageFrame</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AbstractAnnotations'])[1]/preceding::h1[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AbstractFindByBuilder'])[1]/preceding::h1[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div</value>
+      <value>//h1</value>
    </webElementXpaths>
 </WebElementEntity>

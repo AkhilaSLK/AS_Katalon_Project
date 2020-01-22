@@ -13,15 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+def addResult = WS.sendRequest(findTestObject('SOAP/Add'))
+String xml1 = addResult.responseBodyContent
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+def value = new XmlSlurper().parseText(xml1)
 
-WebUI.setText(findTestObject('Web/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), GlobalVariable.UserName)
+println 'Value Extracted is: '+ value
 
-WebUI.setEncryptedText(findTestObject('Web/Page_OrangeHRM/input_Username_txtPassword'), GlobalVariable.Password)
+GlobalVariable.Num1 = value
 
-WebUI.click(findTestObject('Web/Page_OrangeHRM/input_Password_Submit'))
+println ' Global Variable is: '+GlobalVariable.Num1
 
-WebUI.closeBrowser()
+
+WS.sendRequestAndVerify(findTestObject('SOAP/Multiply'))
 

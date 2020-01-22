@@ -17,11 +17,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://selenium.dev/selenium/docs/api/java/')
 
-WebUI.click(findTestObject('Object Repository/frames/Page_Overview/h1_AllClasses'))
+WebUI.click(findTestObject('Web/frames/Page_Overview/h1_AllClasses'))
 
-WebUI.click(findTestObject('Object Repository/frames/Page_Overview/div_Skip navigation linksOverviewPackageClassTreeDeprecatedIndexHelp'))
+WebUI.click(findTestObject('Web/frames/Page_Overview/div_Skip navigation linksOverviewPackageClassTreeDeprecatedIndexHelp'))
 
-WebUI.click(findTestObject('Object Repository/frames/Page_Overview/td_comthoughtworksselenium'))
+WebUI.click(findTestObject('Web/frames/Page_Overview/td_comthoughtworksselenium'))
 
 WebUI.closeBrowser()
 

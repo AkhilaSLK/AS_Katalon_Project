@@ -17,17 +17,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), UserName)
+WebUI.setText(findTestObject('Web/Page_OrangeHRM/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), UserName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Username_txtPassword'), Password)
+WebUI.setEncryptedText(findTestObject('Web/Page_OrangeHRM/Page_OrangeHRM/input_Username_txtPassword'), Password)
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/Page_OrangeHRM/input_Password_Submit'))
+WebUI.click(findTestObject('Web/Page_OrangeHRM/Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/Page_OrangeHRM/a_Welcome Admin'))
+WebUI.click(findTestObject('Web/Page_OrangeHRM/Page_OrangeHRM/a_Welcome Admin'))
 
 WebUI.verifyTextPresent('Welcome Admin', false)
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/Page_OrangeHRM/a_Logout'))
+WebUI.click(findTestObject('Web/Page_OrangeHRM/Page_OrangeHRM/a_Logout'))
 
 WebUI.closeBrowser()
 
